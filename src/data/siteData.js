@@ -4,24 +4,25 @@ export const MAPS_URL = 'https://maps.app.goo.gl/26yRkf7mwQKMD6rx7';
 export const PHONE_DISPLAY = '000-111-00-94';
 export const PHONE_LINK = 'tel:0001110094';
 export const ADDRESS = 'Obolonska embankment 3, Kyiv, Ukraine 04211';
+const BASE_URL = import.meta.env.BASE_URL;
 
 export const assets = {
-  logo: '/assets/Logo_Jaguar.png',
-  hero: '/assets/hero_image.png',
-  heroBottom: '/assets/hero_image_bottom.png',
-  military: '/assets/military_image.png',
-  sensei: '/assets/Sensei.WEBP',
-  schedule: '/assets/karate_schedule.jpg',
-  rules: '/assets/karate_rules.jpg',
+  logo: `${BASE_URL}assets/logo_jaguar.png`,
+  hero: `${BASE_URL}assets/hero_image.png`,
+  heroBottom: `${BASE_URL}assets/hero_image_bottom.png`,
+  military: `${BASE_URL}assets/military_image.png`,
+  sensei: `${BASE_URL}assets/sensei.WEBP`,
+  schedule: `${BASE_URL}assets/karate_schedule.jpg`,
+  rules: `${BASE_URL}assets/karate_rules.jpg`,
   gallery: [
-    '/assets/karate_dojo.jpg',
-    '/assets/karate_dojo-1.jpg',
-    '/assets/karate_dojo-2.jpg',
-    '/assets/karate_dojo-3.jpg',
-    '/assets/karate_dojo-4.jpg',
-    '/assets/karate_dojo-5.jpg',
-    '/assets/karate_dojo-6.jpg',
-    '/assets/karate_dojo-7.jpg',
+    `${BASE_URL}assets/karate_dojo.jpg`,
+    `${BASE_URL}assets/karate_dojo-1.jpg`,
+    `${BASE_URL}assets/karate_dojo-2.jpg`,
+    `${BASE_URL}assets/karate_dojo-3.jpg`,
+    `${BASE_URL}assets/karate_dojo-4.jpg`,
+    `${BASE_URL}assets/karate_dojo-5.jpg`,
+    `${BASE_URL}assets/karate_dojo-6.jpg`,
+    `${BASE_URL}assets/karate_dojo-7.jpg`,
   ],
 };
 
